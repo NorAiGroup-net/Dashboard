@@ -1,4 +1,4 @@
-# NorAiGroup Dashboard — Interactive Frontend Demo
+# NorAiGroup Dashboard
 
 > A fully client-side, interactive demo of the **NorAiGroup Dashboard**.  
 > Simulates Authentication, Project Management, AI tools, Collaboration, Versioning, Deployments and Analytics using only front-end code (React + Vite + Tailwind).  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Authentication**
   - Demo login:  
@@ -59,7 +59,7 @@
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - [React](https://react.dev/) + [Vite](https://vitejs.dev/)  
 - [Tailwind CSS](https://tailwindcss.com/)  
@@ -70,7 +70,7 @@
 
 ---
 
-## 🧭 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 16+  
@@ -88,4 +88,4 @@ npm install
 # Start dev server
 npm run dev
 
-# Open in browser (default https://noraigroup.net/)
+# Open in browser (default http://localhost:5173)
