@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+NorAiGroup Dashboard — Interactive Frontend Demo
 
-## Project info
+A fully client-side, interactive demo of the NorAiGroup Dashboard.
+Simulates Authentication, Project Management, AI tools, Collaboration, Versioning, Deployments and Analytics using only front-end code (React + Vite + Tailwind). Built to feel like a real SaaS product with rich animations, responsive layouts, and realistic mock workflows.
 
-**URL**: https://lovable.dev/projects/5872710a-1b08-42bf-bffb-c3c704cc0292
+Features (what this demo ships)
 
-## How can I edit this code?
+Authentication
+Demo credentials (client-side):
+Email: demo@gmail.com
+Password: demo1234
+Form validation, error states and toast notifications.
 
-There are several ways of editing your application.
+Navigation & Layout
 
-**Use Lovable**
+Responsive sidebar navigation (collapsible) with all requested sections:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5872710a-1b08-42bf-bffb-c3c704cc0292) and start prompting.
+Overview / Project Summary
 
-Changes made via Lovable will be committed automatically to this repo.
+Projects Workspace
 
-**Use your preferred IDE**
+AI Code Generator
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Drag & Drop App Builder
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Live Preview / Design
 
-Follow these steps:
+AI Chat Assistant
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Progress Timeline
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Collaboration Hub
 
-# Step 3: Install the necessary dependencies.
-npm i
+Version Control / History
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Deployment Center
 
-**Edit a file directly in GitHub**
+Analytics & Insights
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Billing & Plans
 
-**Use GitHub Codespaces**
+Settings & Profile
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Active section highlight uses #950101 or #3D0000.
 
-## What technologies are used for this project?
+Design & Theme
 
-This project is built with:
+Color palette:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Background: #000000
 
-## How can I deploy this project?
+Primary: #3D0000
 
-Simply open [Lovable](https://lovable.dev/projects/5872710a-1b08-42bf-bffb-c3c704cc0292) and click on Share -> Publish.
+Secondary / Active: #950101
 
-## Can I connect a custom domain to my Lovable project?
+Accent / Alerts: #FF0000
 
-Yes, you can!
+Font: Tomorrow (README explains how to include / fallback)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Dark mode (default) + Light theme toggle
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Animations & Interactions
+
+Animated progress bars
+
+Fade in/out for modals, cards & chat messages
+
+Slide-in sidebar items
+
+Typing animation for AI assistant responses
+
+Timeline step highlight animations
+
+Line-by-line code generation animation for AI code generator
+
+Smooth drag & drop builder with snapping and live preview
+
+Mock deployment logs with animated streaming output
+
+Charts & graphs animate on load
+
+Mock Functionality
+
+Client-side user state (no DB). All edits are stored in memory (session).
+
+CRUD across projects, tasks, team invites, versions, billing items.
+
+Simulated AI responses & realistic code generation (timed streaming).
+
+Simulated git commits and version history (client-side).
+
+Mock deploy flow with progress, logs and success/failure states.
+
+Responsive across XL / LG / MD / SM breakpoints.
+
+
+📦 Tech Stack
+
+React (Functional components + Hooks)
+
+Vite (fast dev server)
+
+Tailwind CSS (utility-first styling)
+
+Framer Motion (animations)
+
+react-beautiful-dnd or @dnd-kit (drag & drop)
+
+recharts (charts & graphs)
+
+Toaster: [react-hot-toast] or built-in Toastr-style component
+
+Optional: Typescript (project can be TS or JS — README examples assume JS)
+
+No server — everything simulated client-side
